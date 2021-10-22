@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T14:33:47.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="yAS7Mkh0sT-AGkVLv6SK" version="15.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-22T15:04:32.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="aQ9YePZCWZtARZYtrBvt" version="15.5.8" type="github">
   <diagram id="1cMzR5jef1KUW0wlUKwN" name="Page-1">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZJ50QjNCARriGSej-GQZ-10" value="Website Being Requested&lt;br&gt;E.G :&lt;br&gt;www.facebook.com" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="60" width="160" height="100" as="geometry" />
+          <mxGeometry x="70" y="60" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZJ50QjNCARriGSej-GQZ-12" value="Internet Service&lt;br&gt;&amp;nbsp;Provider" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="60" width="120" height="100" as="geometry" />
+          <mxGeometry x="370" y="60" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZJ50QjNCARriGSej-GQZ-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -16,35 +16,99 @@
             <mxPoint x="340" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZJ50QjNCARriGSej-GQZ-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-16" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="ZJ50QjNCARriGSej-GQZ-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="90" as="sourcePoint" />
-            <mxPoint x="570" y="90" as="targetPoint" />
+            <mxPoint x="490" y="90" as="sourcePoint" />
+            <mxPoint x="590" y="90" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="90" />
+              <mxPoint x="530" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ZJ50QjNCARriGSej-GQZ-21" value="DOMAIN NAME SERVERS (DNS)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="580" y="60" width="120" height="100" as="geometry" />
+          <mxGeometry x="640" y="60" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZJ50QjNCARriGSej-GQZ-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="130" as="sourcePoint" />
-            <mxPoint x="260" y="130" as="targetPoint" />
+            <mxPoint x="350" y="130" as="sourcePoint" />
+            <mxPoint x="280" y="130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="350" y="130" />
+              <mxPoint x="370" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ZJ50QjNCARriGSej-GQZ-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="130" as="sourcePoint" />
-            <mxPoint x="490" y="130" as="targetPoint" />
+            <mxPoint x="600" y="130" as="sourcePoint" />
+            <mxPoint x="530" y="130" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="580" y="130" />
+              <mxPoint x="620" y="130" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-24" value="Requests the Website" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="70" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-27" value="Sends Request to Dns" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="ZJ50QjNCARriGSej-GQZ-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="90" as="sourcePoint" />
+            <mxPoint x="590" y="90" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-31" value="DNS Sends back Address&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-32" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="250" as="sourcePoint" />
+            <mxPoint x="530" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-35" value="SERVERS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="240" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-38" value="Javascript" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="360" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-39" value="CSS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="330" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-40" value="HTML" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="300" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-43" value="Browser Sends Request to Servers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="380" as="sourcePoint" />
+            <mxPoint x="250" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-45" value="Javascript" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-46" value="CSS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-47" value="HTML" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZJ50QjNCARriGSej-GQZ-48" value="WEB BROWSER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
